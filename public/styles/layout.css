@@ -16,10 +16,25 @@ html {
 
 body {
   color: #545149;
-  background-color: #f4f1ec;
+  background-color: hsla(226, 41%, 90%, 0.376);
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
+  /* display: flex; */
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ body div {
+  display: flex;
+  justify-content: center;
+ }
+
+ main {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  background-color: hsla(226, 41%, 90%, 0.1);
+ }
