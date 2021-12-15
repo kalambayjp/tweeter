@@ -20,12 +20,14 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
-
+    <link rel="stylesheet" href="/styles/tweets.css" type="text/css" />
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+
   </head>
 
   <body>
@@ -41,7 +43,7 @@
     </nav>
 
     <!-- Header Info -->
-    <header>
+    <header class="main">
       <div>
           <img src="/images/profile-hex.png"> 
       </div>
@@ -64,6 +66,27 @@
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
+        <container>
+          <article class="tweet">
+            <header>
+              <p><img src="/images/profile-hex.png">Will</p>
+              <p>@PofBA</p>
+            </header>
+            <p class="tweet-text"> 
+              Now this is the story all about how
+              My life got flipped, turned upside down
+              And I'd like to take a minute just sit right there
+              I'll tell you
+            </p>
+            <footer>
+              <P>tweet date</P>
+              <p class="icons">
+                <i class="fa-solid fa-flag"></i>&nbsp<i class="fa-solid fa-retweet">&nbsp</i><i class="fa-solid fa-heart"></i>
+              </p>
+            </footer>
+          </article>
+
+        </container>
       </section>
 
     </main>

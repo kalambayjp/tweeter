@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-header {
+header.main {
   height: 400px;
   width: 100%;
   display: flex;
@@ -15,14 +15,14 @@ header {
   
 }
 
-header div {
+header.main div {
   display: flex;
   margin-top: 0em;
   margin-bottom: 0em;
 }
 
 
-header h2 {
+header.main h2 {
   margin-top: 0em;
   margin-bottom: 0em;
 }

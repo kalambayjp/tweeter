@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -11,6 +15,7 @@ section {
   justify-content: start;
   align-items: center;
   width: 100%;
+  margin-bottom: 1em;
  }
  form textarea {
   display: flex;
@@ -18,9 +23,8 @@ section {
   margin-bottom: 0.5em;
   border-width: 1px 1px 5px 1px;
   border-style: solid;
+  
   background-color: hsla(226, 41%, 90%, 0.1);
-
-
  }
 
  form div {
@@ -30,8 +34,18 @@ section {
   justify-content: space-between;
  }
 
- button {
+  button {
    background-color: #224acca2;
    font-family: 'Bungee', cursive;
    color: #FFFFFF;
- }
+  }
+
+ 
+  output {
+   font-family: 'Bungee', cursive;
+  }
+
+  #exceeds-count {
+   color: red;
+  }
+
