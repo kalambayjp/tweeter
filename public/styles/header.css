@@ -8,11 +8,9 @@ header.main {
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  background-color: #fff8dc;
+
+  background-color: hsl(39, 100%, 50%);
   background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
-  
-  
-  
 }
 
 header.main div {
@@ -26,6 +24,3 @@ header.main h2 {
   margin-top: 0em;
   margin-bottom: 0em;
 }
-
-
-

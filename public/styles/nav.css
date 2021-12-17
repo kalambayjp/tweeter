@@ -5,7 +5,8 @@
 nav {
   height: 100px;
   width: 100%;
-  background-color: #4056A1;
+  background-color: hsl(39, 100%, 50%);
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -19,7 +20,6 @@ nav {
 nav span {
 font-family: 'Bungee', cursive;
 display: flex;
-
 }
 
 nav div {
@@ -27,7 +27,6 @@ nav div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 nav p {
@@ -41,9 +40,3 @@ nav p {
 nav i {
   color: red;
 }
- 
-
-
-
-
-
