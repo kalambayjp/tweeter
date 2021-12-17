@@ -16,3 +16,9 @@ Created using Ajax, jQuery, HTML, CSS3 and Javascript. A user can create and sub
 
 - Express
 - Node 5.10.x or above
+
+## screenshots
+
+![`tablet view of page`] (https://github.com/kalambayjp/tweeter/blob/master/docs/tabletView.png?raw=true)
+![`desktop view of page`] (https://github.com/kalambayjp/tweeter/blob/master/docs/wideScreenView.png?raw=true)
+
