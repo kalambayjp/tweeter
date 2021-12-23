@@ -56,7 +56,9 @@ $(document).ready(() =>  {
         // reset character count
         $(".counter").val('140');
         
-        loadTweets();
+        $(".tweets-container").html(''); // clear previous tweets
+
+        loadTweets(); 
 
         // clear text feild
         $(`#tweet-text`).val('');
